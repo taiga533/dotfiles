@@ -3,6 +3,8 @@ filetype plugin indent on
 sytax on
 
 colorscheme molokai
+"molokai—p‚Ìİ’è
+set t_Co=256
 
 set nowrap
 "ŒŸõŒn
