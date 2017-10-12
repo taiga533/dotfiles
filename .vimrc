@@ -2,6 +2,8 @@ filetype plugin indent on
 
 sytax on
 
+colorscheme molokai
+
 set nowrap
 "検索系
 set hlsearch
@@ -21,7 +23,6 @@ set softtabstop=2
 set expandtab
 set tabstop=2
 set smarttab
-
 set clipboard=unnamed
 " インサートモードの時に C-j でノーマルモードに戻る
 imap <C-j> <esc>
