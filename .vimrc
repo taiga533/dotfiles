@@ -5,6 +5,13 @@ set nowrap
 set hlsearch
 set ignorecase
 set smartcase
+" vimが作成するファイルを制限
+set nobackup
+set noundofile
+" ファイルエンコード関連
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8,sjis,euc-jp
 " 自動インデント
 set autoindent
 " 表示関係
@@ -48,6 +55,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'scrooloose/nerdtree'
 " molokai(colorscheme)
 NeoBundle 'tomasr/molokai'
+" lightline(ステータスラインのカスタマイズツール)
+NeoBundle 'itchyny/lightline.vim'
 " Quickrun(お手軽実行環境)
 NeoBundle 'thinca/vim-quickrun'
 " Unite(統合ツール)
